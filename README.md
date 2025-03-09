@@ -4,5 +4,7 @@ This 3D-printed pen plotter is designed to be mounted on the spindle motor of a 
 <img src="images/plotter.jpg" width="50%" />
 <img src="images/demo.png" width="50%" />
 
+## [Watch the demo on YouTube](https://youtube.com/shorts/HfE97TkYbKA)
+
 # .nc to .gcode converter
 This python code take a .nc file and convert it into a .gcode file
