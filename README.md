@@ -2,6 +2,13 @@
 
 ### [Watch the PCB Plotter in Action](https://youtube.com/shorts/HfE97TkYbKA)
 
+### Check out my other projects that use the PCB Plotter for etching circuit boards:
+1) [LiPo-Powered Analog LED Driver](https://github.com/furpectfox/LiPo-Powered_Analog_LED_Driver/blob/main/README.md)
+2) [Solar-Charged Minecraft Fox Lamp](https://github.com/furpectfox/Solar-Charged_Minecraft_Fox_Lamp/blob/main/README.md)
+3) [Fume Extractor](https://github.com/furpectfox/Fume_Extractor/blob/main/README.md)
+4) [6 Ni-Cd Cells Charger](https://github.com/furpectfox/6V_Ni-Cd_Powered_Light/blob/main/README.md)
+
+
 ### Overview
 This project is a 3D-printed pen plotter attachment designed to be mounted on the spindle motor of a CNC 3018 machine. Once mounted, the CNC machine can draw precise traces on copper-clad boards using a permanent marker. These traces act as a resist during the etching process, allowing you to create functional PCBs at home.
 
