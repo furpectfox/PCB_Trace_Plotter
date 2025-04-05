@@ -19,7 +19,7 @@ I thought about the core principle of photoresist etching: It is bascically mask
 
 ### Evolution of the Project
 - **Improved Precision:** How can I automate the trace drawing process to make it much more precise? The answer: a 3D printer! So I designed a 3D-printed pen attachment that could be mounted to my 3D printer's head.
-- **1st Problem - File Conversion Challenge:** The software I used to convert PCB layout (Carbide Create) only exported `.nc` files, which are meant for CNC machines. Since my 3D printer required `.gcode`, I wrote a simple [Python program](https://github.com/furpectfox/PCB_Trace_Plotter/blob/main/nc_to_gcode%20Converter/main.py) to convert `.nc` files into `.gcode` files.
+- **1st Problem - File Conversion Challenge:** The software I used to convert PCB layout (Carbide Create) only exported `.nc` files, which are meant for CNC machines. Since my 3D printer required `.gcode`, I wrote a simple [Python program](https://github.com/furpectfox/PCB_Trace_Plotter/blob/main/Code/nc_to_gcode%20Converter/main.py) to convert `.nc` files into `.gcode` files.
 - **2nd Problem - Drilling:** All that's left to do is let the 3D printer draw the traces for me, then I can etch the PCB. However, there's another problem: I had to manually drill all the holes for the through-hole components, so I designed a [DIY drill press](https://github.com/furpectfox/PCB_Drill_Press). Even so, I still found the process too tedious. Then it occurred to me: I have a budget 3018 CNC machine. What if I use it to both draw the traces and drill the holes? So, I designed a new pen attachment for my CNC machine. This also means I no longer need to convert the `.nc` file to `.gcode`, since the CNC machine can use it directly.
 
 ### How It Works
